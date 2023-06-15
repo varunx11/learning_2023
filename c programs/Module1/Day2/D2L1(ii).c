@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 void swap(void *ptr1, void *ptr2, size_t size) {
     char *temp = (char *)malloc(size);
